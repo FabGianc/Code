@@ -1,3 +1,9 @@
+"""
+Script Python per inviare e ricevere richieste di ping ICMP (Echo Requests). 
+La funzione receiveOnePing recupera l'intestazione ICMP dal pacchetto ricevuto, 
+verificando se si tratta di una risposta Echo in base alla struttura effettiva dei pacchetti ICMP ricevuti, 
+"""
+
 from socket import *
 import os
 import sys
