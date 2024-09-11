@@ -110,11 +110,10 @@ def format_abuseipdb_output(result):
 def main():
     # Inserisci qui le tue chiavi API per i vari servizi
     api_keys = {
-        'virustotal': '8f644a775d7154a1f46d98ce98d85be652629ad29fa1693e9baecda5692724d9',
-        # IBM è a pagamento, per ora commento la riga
-        # 'ibm_xforce': 'your_ibm_xforce_api_key',
-        'urlscan': '2741814b-c42b-4f4a-b2db-391b257db18c',
-        'abuseipdb': 'f010dce7a9825a178727768ef81213adc5b595aed54cab5814ed75adcbabb01fdaaa41394b616c56',
+        'virustotal': 'your_virustotal_api_key',
+        'ibm_xforce': 'your_ibm_xforce_api_key',
+        'urlscan': 'your_urlscan_api_ke',
+        'abuseipdb': 'your_abuseipdb_api_key',
     }
 
     # Richiesta di input per il tipo di analisi
