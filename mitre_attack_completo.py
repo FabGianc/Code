@@ -16,6 +16,7 @@ Eventuali messaggi di warning sono generati dalla libreria TAXII2 client che att
 per comunicare con il server MITRE ATT&CK. Questi avvisi non influenzano il funzionamento del programma, 
 ma indicano che il client sta adattando le sue richieste in base alle risposte del server.
 
+Scarica Atomic Red Team™ da https://github.com/redcanaryco/atomic-red-team
 """
 
 import os
