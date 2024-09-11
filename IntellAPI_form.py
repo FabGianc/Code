@@ -14,6 +14,8 @@ AAbuseIPDB: Visualizza informazioni dettagliate sull'indirizzo IP, inclusi il pu
 E' possibile aggiungere ulteriori servizi in modo simile, assicurandoti che ogni API segua 
 le specifiche e il formato di chiamata corretto.
 
+L'output è formattato
+
 """
 
 import requests
