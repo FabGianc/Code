@@ -37,7 +37,7 @@ def get_related_objects(obj, attack_data):
     return related
 
 # Percorso del file JSON scaricato
-file_path = "C:\\Users\\Administrator\\Dropbox\\Sorgenti\\PYTHON\\0_Code\\enterprise-attack.json"
+file_path = "C:\\percorso_completp_cartella\\enterprise-attack.json"      # Windows
 
 # Carica i dati ATT&CK
 attack_data = load_attack_data(file_path)
