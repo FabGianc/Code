@@ -111,9 +111,8 @@ def main():
     # Inserisci qui le tue chiavi API per i vari servizi
     api_keys = {
         'virustotal': 'your_virustotal_api_key',
-        # IBM è a pagamento, per ora commento la riga
-        # 'ibm_xforce': 'your_ibm_xforce_api_key',
-        'urlscan': 'your_urlscan_api_key',
+        'ibm_xforce': 'your_ibm_xforce_api_key',
+        'urlscan': 'your_urlscan_api_ke',
         'abuseipdb': 'your_abuseipdb_api_key',
     }
 
