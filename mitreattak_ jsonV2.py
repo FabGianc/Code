@@ -1,3 +1,14 @@
+"""
+Utilizzo:
+Scarica il file JSON dal link 
+
+https://github.com/mitre-attack/attack-stix-data/tree/master/enterprise-attack
+
+e specifica il percorso corretto nel codice.
+Esegui lo script per cercare oggetti specifici e visualizzare i dettagli correlati.
+
+"""
+
 import json
 
 # Carica i dati ATT&CK dal file JSON
@@ -16,7 +27,7 @@ def get_object_by_external_id(attack_data, external_id):
     return None
 
 # Percorso del file JSON scaricato
-file_path = 'C:\\Users\\Administrator\\Dropbox\\Sorgenti\\PYTHON\\0_Code\\enterprise-attack.json'
+file_path = 'C:\\percorso_completo_cartella\\enterprise-attack.json'        # Windows
 
 # Carica i dati ATT&CK
 attack_data = load_attack_data(file_path)
